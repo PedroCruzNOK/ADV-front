@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	 <!--Responsive Extension Datatables CSS-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+	
+
+		%svelte.head%
+	</head>
+
+	<body>
+		<style>
+			.modal {
+				background-color: white;
+				padding: 2em;
+				border-radius: 0.5em;
+				min-width: 30vw;
+			}
+			.iconMenu {
+				font-size: 22px;
+			}
+			.itemMenu:hover {
+				color: #f15b4e;
+			}
+			.iconMenu2 {
+				font-size: 18px;
+			}
+
+			.fondo1{
+				background-color: #174769;
+				
+			}
+			.fondo2{
+				background-color: #174769;
+				opacity: 0.9;
+			}
+			.encabezado{
+				color: #998b6c;
+			}
+			th{
+				color:#998b6c;
+			}
+			.texto1{
+				color:#174769 ;
+			}
+			.texto2{
+				color:#f15b4e;
+				opacity: 0.7;
+			}
+			.estadoActivo{
+				background-color:#357090;
+			}
+			.estadoInactivo{
+				background-color:#93bccc;
+			}
+			.btnAgregar{
+				background-color: #174769;
+				color:white;	
+				background: linear-gradient(90deg, #174769 25%,  #f15b4e 100%);
+				margin-bottom: 10px;
+			}
+			.btnAgregar:hover{
+				background-color: #f15b4e;
+				color:white;	
+				background: linear-gradient(90deg, #f15b4e 25%,  #174769 100%);
+				opacity: 0.9;
+				box-shadow: 2px 3px 10px #9bbfd3;
+  				transition: all 0.2s ease;
+			}
+		</style>
+		<div id="svelte">%svelte.body%</div>
+	</body>
+
+
+</html>
